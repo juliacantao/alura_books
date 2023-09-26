@@ -3,6 +3,7 @@
         height: 24px;
         background-image: url("../img/Menu.svg");
         display:inline-block;
+        background-image: no-repeat;
     }
 
     .cabecalho{
@@ -15,4 +16,8 @@
     .container {
          display: flex;
         align-items: center;
+    }
+
+    .container-img {
+        padding: 1em;
     }
