@@ -4,10 +4,10 @@
         background-image: url("../img/Menu.svg");
         display:inline-block;
         background-image: no-repeat;
+        background-position: center;
     }
 
-
-    .cabecalho{
+    .cabecalho {
         background-color: var(--branco);
         display: flex;
         justify-content: space-between;
@@ -35,13 +35,15 @@
     display: block;
 }
 
-.lista-menu-titulo, .lista-menu-item { 
+.lista-menu-titulo, .
+lista-menu-item { 
     padding: 1em;
     background-color: var(--branco);  
 }
 
 .lista-menu-titulo {
     color: var(--laranja);
+    font-weight: 700;
 }
 
 .lista-menu-link {
@@ -50,4 +52,8 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-transform: uppercase;
+}
+
+,.container-botao {
+    display: none;
 }
